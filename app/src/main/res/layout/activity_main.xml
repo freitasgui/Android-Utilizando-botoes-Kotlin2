@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp" >
+
+
+    <Button
+        android:id="@+id/botaoVermelho"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#FF0000"
+        android:layout_marginTop="100dp"
+        android:text="Vermelho"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <Button
+        android:id="@+id/botaoVerde"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
+        android:text="Verde"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="#00FF00"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/botaoVermelho"/>
+    <Button
+        android:id="@+id/botaoAzul"
+        android:layout_width="199dp"
+        android:layout_height="160dp"
+        android:text="Azul"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="#0000FF"
+        android:layout_below="@id/botaoVerde"/>
+
+
+
+</RelativeLayout>
